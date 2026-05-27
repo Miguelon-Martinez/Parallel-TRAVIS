@@ -1,0 +1,25 @@
+# Ignorar datos de entrada/salida
+input/*
+output/*
+chunks/*
+output_chunks/*
+logs/*
+
+# Mantener las carpetas en Git aunque estén vacías
+!input/.gitkeep
+!output/.gitkeep
+!chunks/.gitkeep
+!output_chunks/.gitkeep
+!logs/.gitkeep
+
+# Ignorar README antiguo/no actualizado
+README_parallel_matlab_chunks.md
+
+# Temporales
+files.txt
+*.log
+
+# MATLAB
+*.asv
+*.mat
+*.mex*
